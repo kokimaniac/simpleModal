@@ -1,0 +1,22 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+    text-align: center;
+    margin-top: 30px;
+}
+header {
+    padding: 25px 25px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.signature-img {
+    display: inline-block;
+}
+.signature-img .signature-title{
+    padding: 25px 25px;
+}
+.signature-img img{
+    width: 300px;
+    height: 250px;
+}

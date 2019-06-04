@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Asignación de materias</title>
+	<link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+	<div class="container">
+		<header>Asignaturas</header>
+		<div class="signature">
+			<label for="ids-id">
+				<img src="assets/ids.jpg" alt="Ingeniería de Software"> <br>
+				Ingeniería de Software
+				<input type="checkbox" value="signature" id="ids-id" onclick="showModal()" value="Ingeniería de Software">
+			</label>
+		</div>
+		<div class="signature">
+			<label for="ia-id">
+				<img src="assets/ia.jpg" alt="Inteligencia Artificial"> <br>
+				Inteligencia Artificial
+				<input type="checkbox" value="signature" id="ia-id" onclick="showModal()" value="Ingeligencia Artificial">
+			</label>
+		</div>
+		<div class="signature">
+			<label for="db-id">
+				<img src="assets/db.jpg" alt="Base de Datos"> <br>
+				Base de datos
+				<input type="checkbox" value="signature" id="db-id" onclick="showModal()" value="Base de Datos">
+			</label>
+		</div>
+	</div>
+	<!--js-->
+	<script src="src/js/main.js"></script>
+	<!--/-->
+</body>
+</html>

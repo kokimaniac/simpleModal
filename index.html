@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ingeniería de software</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <a href="main.html">con modal</a>
+    <div class="container">
+        <header>Asignaturas</header>
+        <div class="signatures">
+            <form method="POST" name="validateSignature" onsubmit="return validateForm(event)">
+                <div class="signature-img">
+                    <label for="ia-id">
+                        <img src="assets/ia.jpg" alt="artificial intelligence" class="ia-id"> <br>
+                        <div class="signature-title">
+                            Inteligencia Artifical
+                            <input type="checkbox" name="signature" value="Inteligencia Artificial" id="ia-id">
+                        </div>
+                    </label>
+                </div>
+                <div class="signature-img">
+                    <label for="ids-id">
+                        <img src="assets/ids.jpg" alt="software engineering" class="ids-id"> <br>
+                        <div class="signature-title">
+                            Ingeniería de Software
+                            <input type="checkbox" name="signature" value="Ingeniería de Software" id="ids-id">
+                        </div>
+                    </label>
+                </div>
+                <div class="signature-img">
+                    <label for="db-id">
+                        <img src="assets/db.jpg" alt="database" class="db-id"> <br>
+                        <div class="signature-title">
+                            Base de datos
+                            <input type="checkbox" name="signature" value="Base de Datos" id="db-id">
+                        </div>
+                    </label>
+                </div>
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--js scripts-->
+    <script src="src/js/index.js"></script>
+    <!--/-->
+</body>
+</html>
